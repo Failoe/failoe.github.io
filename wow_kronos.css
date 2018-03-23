@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+a:link {
+  color:red;
+}
+
+a:visited {
+  color:tan;
+}
+
+body {
+  position: relative;
+  padding: 20px;
+  background-color: black;
+  
+  font-family: 'Libre Baskerville', serif;
+}
+
+@font-face {
+    font-family: "deathrattle_font";
+    src: url(/deathrattlebb_reg.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "aboutaboy_font";
+    src: url(/DJBAboutaBoy.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "lifecraft";
+    src: url(/LifeCraft_Font.ttf) format("truetype");
+}
+
+h1.lifecraft { 
+  font-family: "lifecraft", Verdana, Tahoma;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  
+  /*color: #4d79ff;*/
+  color: #ffffff;
+  font-size: 14vmin;
+  text-align: center;
+  text-transform: uppercase;
+
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.wrap {
+  height: 100%;  
+  position: relative;
+  overflow: hidden;
+
+  img, .bg {
+    
+    
+  }
+  
+  
+}
+
+
+.bg {
+    width: 2500px;
+    height: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    background: url('https://i.imgur.com/qKMVhOu.jpg') no-repeat center center;
+    background-size: cover;
+
+    transform: scale(1);
+  }
+
+div.content {
+  background-color:rgba(0,0,0,0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  border-radius: 10px;
+  width: 50%;
+  height: 50vh;
+  color: white;
+  font-family: Verdana, Tahoma;
+  font-size: 120%;
+}
+
+.listheader {
+  text-align: center;
+  font-family: aboutaboy_font;
+  font-size: 200%;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    font-family: aboutaboy_font;
+    font-size: 250%;
+    width: 33.33%;
+}
+
+.bodycolumn {
+    float: left;
+    text-align: left;
+    font-size: 100%;
+    width: 50%;
+    font-size: 2vh 2vw;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.content * {
+  padding: 2px 5px;
+  }

@@ -105,15 +105,15 @@ div.content {
 
 .listheader {
   text-align: center;
-  font-family: aboutaboy_font;
+  font-family: Impact;
   font-size: 200%;
 }
 
 .column {
     float: left;
     text-align: center;
-    font-family: aboutaboy_font;
-    font-size: 250%;
+    font-family: Impact;
+    font-size: 200%;
     width: 33.33%;
 }
 
